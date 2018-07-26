@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="用户登录"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/my_login_mm"
+        android:layout_width="451dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="223dp" />
+
+    <EditText
+        android:id="@+id/my_login_zh"
+        android:layout_width="451dp"
+        android:layout_height="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="141dp"
+        android:text="账号："
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="274dp"
+        android:text="密码："
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="349dp"
+        android:text="第三方登录"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="89dp" />
+
+    <TextView
+        android:id="@+id/my_login_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginEnd="100dp"
+        android:text="注册账号"
+        android:textSize="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp" />
+
+    <ImageView
+        android:id="@+id/my_login_weixin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="367dp"
+        android:layout_marginStart="12dp"
+        android:src="@drawable/weixin"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <ImageView
+        android:id="@+id/my_login_qq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="360dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/mqq"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp" />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:text="登录" />
+</RelativeLayout>

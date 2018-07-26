@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:src="@drawable/reg_bg"
+                />
+
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/my_touxiang"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="26dp"
+                app:roundAsCircle="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="66dp" />
+
+            <TextView
+                android:id="@+id/my_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="167dp"
+                android:layout_marginTop="35dp"
+                android:text="登录/注册>"
+                android:textSize="30dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="167dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="145dp"
+                android:src="@drawable/wqeqeqe"
+                android:layout_alignParentLeft="true" />
+
+            <ImageView
+                android:id="@+id/my_dingdan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="36dp"
+                android:layout_marginTop="252dp"
+                android:src="@drawable/asd"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="36dp" />
+            <ImageView
+                android:id="@+id/my_shouhuo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="151dp"
+                android:layout_marginTop="261dp"
+                android:src="@drawable/qwest"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="151dp" />
+        </RelativeLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_marginLeft="30dp"
+    android:background="@drawable/shape_radius"
+    android:layout_height="300dp">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sousuo_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/sousuo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="62dp"
+        android:layout_marginStart="13dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="xxxx"
+        android:textSize="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="13dp" />
+
+    <TextView
+        android:id="@+id/sousuo_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="25dp"
+        android:text="xxx"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp" />
+</RelativeLayout>

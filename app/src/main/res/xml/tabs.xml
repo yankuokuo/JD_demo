@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/select"
+        title="Favorites" />
+    <tab
+        id="@+id/tab_fen"
+        icon="@drawable/abx"
+        title="Nearby" />
+    <tab
+        id="@+id/tab_fa"
+        icon="@drawable/abz"
+        title="Nearby" />
+    <tab
+        id="@+id/tab_car"
+        icon="@drawable/abv"
+        title="Friends" />
+    <tab
+        id="@+id/tab_my"
+        icon="@drawable/ac3"
+        title="Friends" />
+</tabs>
